@@ -1,2 +1,6 @@
 (test
- (name cs3110))
+ (name cs3110)
+ ; disable warning temperoly
+ (flags
+  (:standard -warn-error -A))
+ (libraries cs3110 ounit2))
