@@ -50,6 +50,6 @@ let fib_fast n =
 let f x = if x then x else x
 let g x y = if y then x else x
 let h x y z = if x then y else z
-let i x y z = if x then y else y
+let i x y _z = if x then y else y
 let divide ~numerator ~denominator = numerator /. denominator
 let _ = divide ~denominator:2. ~numerator:3.
