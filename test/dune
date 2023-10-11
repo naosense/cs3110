@@ -3,4 +3,4 @@
  ; disable warning temperoly
  (flags
   (:standard -warn-error -A))
- (libraries cs3110 ounit2))
+ (libraries cs3110 ounit2 exercise))

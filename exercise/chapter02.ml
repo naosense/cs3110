@@ -53,3 +53,6 @@ let h x y z = if x then y else z
 let i x y _z = if x then y else y
 let divide ~numerator ~denominator = numerator /. denominator
 let _ = divide ~denominator:2. ~numerator:3.
+let ( +/. ) x y = (x +. y) /. 2.
+let _ = 1.0 +/. 2.0
+let _ = 0. +/. 0.

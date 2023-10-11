@@ -1,5 +1,6 @@
 open OUnit2
 open Sum
+open Chapter03
 
 let make_sum_test name expected_output input =
   name >:: fun _ -> assert_equal expected_output (sum input) ~printer:string_of_int
@@ -29,4 +30,5 @@ let tests =
   >::: [ ("tue_after_mon" >:: fun _ -> assert_equal Tuesday (next_weekday Monday)) ]
 ;;
 
-let _ = run_test_tt_main tests
+(* let _ = run_test_tt_main tests *)
+let _ = product [ 1; 2; 3 ] |> print_int

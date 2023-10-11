@@ -1,0 +1,6 @@
+(library
+ (name exercise)
+ (wrapped false) ; 生成module时去掉library名，比如生成Chapter02而不是Exercise.Chapter02
+ (flags
+  (:standard -warn-error -A))
+ (libraries cs3110))
