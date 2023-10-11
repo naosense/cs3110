@@ -1,5 +1,3 @@
-profile=janestreet
-break-cases = fit
-wrap-comments = true
-line-endings = lf
-if-then-else=keyword-first
+profile = janestreet
+version = 0.26.1
+parens-ite=false
